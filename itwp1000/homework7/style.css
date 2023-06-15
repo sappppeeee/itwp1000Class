@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, Helvetica, sans-seri f;
+  font-size: 12px;
+}  
+h1 {
+  text-align: center;
+}
+label {
+  padding: 2px;
+}
+fieldset {
+  text-align: left;
+  padding: 5px;
+  background-color : rgb(255, 176, 176);
+  border-radius: 5px;
+}
+legend{
+  background-color: rgb(51, 255, 194);
+  border: 2px solid rgb(132, 0, 255);
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+section {
+  max-width: 610px;
+  margin: auto;
+}
+/* /* classes that style the textarea tag */
+.comment {
+  float: left;
+  width: 100%;
+  height: auto;
+  padding-top: 3px;
+}
+.textinput {
+  float: left;
+  width: 99%;
+  min-height: 75px;
+  outline: none;
+  resize: none;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+br {
+  line-height: 2.5em;
+}
+/*ID that centers the validation text */
+#validation {
+  text-align: center;
+}
+.firstfieldset {
+  margin: auto;
+  padding: 10px;
+}
+.firstfieldset input {
+  margin: 5px;
+}
